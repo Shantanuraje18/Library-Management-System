@@ -1,13 +1,9 @@
-A simple console-based Library Management System written in C, designed to manage books, issue/return operations, and student records.
+# 📚 Library Management System (C-Based)
 
+A CLI-based (Command Line Interface) application developed in **C** to automate the day-to-day operations of a library.
 
-Features:
-Add, view, search, modify, and delete book records
-
-Issue and return books
-
-Maintain student and librarian details
-
-Save and retrieve data using file handling
-
-Menu-driven console interface
+### 💻 Core Features
+* **File-Based Storage:** Utilizes C's file handling (`fopen`, `fwrite`, `fread`) to ensure data persists after the program closes.
+* **Data Structures:** Implements `structs` to manage book attributes like ID, Title, Author, and Availability.
+* **Search Logic:** Includes custom algorithms to search for books by their unique ID or Name.
+* **Transaction Management:** Logic for issuing and returning books with real-time record updates.
